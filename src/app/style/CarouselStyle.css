@@ -1,0 +1,21 @@
+.carousel-root {
+  max-width: 100%;
+  margin: auto;
+}
+
+.carousel .slide {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.carousel .slide.selected {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.carousel .carousel-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}

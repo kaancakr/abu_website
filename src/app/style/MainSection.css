@@ -1,0 +1,58 @@
+/* MainSection.css */
+.main-section {
+  background-color: #040d12;
+  padding: 2.5rem;
+  border-radius: 1.875rem;
+  z-index: 10;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/abu_app.png");
+  height: 60vh;
+}
+
+/* MainSection.css */
+.inner-container {
+  background-color: rgba(241, 245, 249, 0.7);
+  border-radius: 1.875rem;
+  padding: 1.5rem;
+  border: 4px solid #0f044c;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.title {
+  color: #0f044c;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  z-index: 20;
+}
+
+@media (min-width: 640px) {
+  .main-section {
+    padding: 4rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 2rem;
+  }
+}
