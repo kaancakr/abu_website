@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../globals.css";
 import { FaRocket } from "react-icons/fa";
+import "../globals.css";
 
 const ChatBotSection = () => {
   const [messages, setMessages] = useState([]);
