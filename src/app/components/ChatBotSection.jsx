@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../style/ChatBotSection.css";
+import "../globals.css";
 import { FaRocket } from "react-icons/fa";
 
 const ChatBotSection = () => {

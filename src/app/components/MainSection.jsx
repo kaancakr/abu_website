@@ -1,6 +1,6 @@
 import React from "react";
 import AnimatedMessages from "./AnimatedMessages";
-import "../style/MainSection.css";
+import "../globals.css";
 
 const MainSection = () => {
   return (
